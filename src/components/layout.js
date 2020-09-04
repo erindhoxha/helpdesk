@@ -231,7 +231,7 @@ class Layout extends React.Component {
             <header
               sx={{
                 mx: `auto`,
-                maxWidth: rhythm(30),
+                maxWidth: rhythm(40),
                 fontSize: 3,
                 px: [2, 4],
                 pt: 4,
@@ -250,7 +250,7 @@ class Layout extends React.Component {
               sx={{
                 marginLeft: `auto`,
                 marginRight: `auto`,
-                maxWidth: rhythm(30),
+                maxWidth: rhythm(40),
                 px: [2, 4],
                 pt: 4,
                 pb: 2,
@@ -292,7 +292,7 @@ class Layout extends React.Component {
           <main
             sx={{
               mx: `auto`,
-              maxWidth: rhythm(30),
+              maxWidth: rhythm(40),
               px: [2, 4],
               py: [3],
             }}
@@ -305,7 +305,7 @@ class Layout extends React.Component {
             backgroundColor:"paperHoverHeadingColor",
             marginLeft: `auto`,
             marginRight: `auto`,
-            maxWidth: rhythm(30),
+            maxWidth: rhythm(40),
             padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
             textAlign: "center",
             color: "footerTextColor",
