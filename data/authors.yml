@@ -4,6 +4,9 @@
 - id: erind
   name: Erind
   avatar: ./avatars/dferber.png
+- id: mark
+  name: Mark Shatilov
+  avatar: ./avatars/dferber.png
 - id: amanda
   name: Amanda
   avatar: ./avatars/amanda.jpg
