@@ -1,6 +1,6 @@
 /** @jsx jsx */
 import { jsx } from "theme-ui"
-import LogoImage from "../../public/evacheckinlogo.png"
+import LogoImage from "../../static/evacheckinlogo.png"
 
 const Logo = (props) => (
   <div>
