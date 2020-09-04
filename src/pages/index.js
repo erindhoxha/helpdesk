@@ -33,7 +33,7 @@ class HelpCenterIndex extends React.Component {
           const icon = node.icon
             ? jsx(
                 icons[node.icon],
-                { sx: { color: "iconColor" }, size: "2rem" },
+                { sx: { color: "iconColor", opacity:"0.5" }, size: "2rem" },
                 null
               )
             : null

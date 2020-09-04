@@ -88,7 +88,7 @@ class CollectionTemplate extends React.Component {
     const icon = collection.icon
       ? jsx(
           icons[collection.icon],
-          { sx: { color: "iconColor" }, size: "2rem" },
+          { sx: { color: "iconColor", opacity:"0.4" }, size: "2rem" },
           null
         )
       : null
