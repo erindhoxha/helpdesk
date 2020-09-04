@@ -1,7 +1,7 @@
 ---
 title: What QR code scanning app do you recommend?
 date: 2020-01-03
-author: hayden
+author: Mark
 modifiedDate: null
 description: "Learn more about QR code scanning apps recommended by Eva Check-in"
 ---
