@@ -5,6 +5,7 @@ author: dferber
 modifiedDate: null
 description: "This project is a Gatsby Starter for a free self-hosted help center. You don't need to know how to code in order to set it up, and you can host it for free on any static site hosting service."
 ---
+Added manually this title from Github page!
 
 The goal of this project is to enable anyone to set up a free help center for their product. Help Centers are websites which contain documentation, ansers to frequent questions and tips for your product or service. Having a help center reduces the number of support tickets you'll receive. You don't even need to know how to code to set it up. This help center comes with tons of documentation guiding you through the setup and continued use.
 
