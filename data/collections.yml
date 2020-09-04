@@ -27,14 +27,20 @@
   description: Brief overview of the Eva Check-in FAQs
   icon: "FaQuestionCircle"
   sections:
-    - id: features
+    - id: faqs
       title: Frequently asked questions
       articles:
         - file: ../content/faqs/qr-code-recommend/index.md
+        - file: ../content/faqs/what-reporting-do-i-get/index.md
+        - file: ../content/faqs/where-is-my-data-kept/index.md
+        - file: ../content/faqs/whats-the-difference-between-a-site-and-a-zone/index.md
+    - id: reporting
+      title: Reporting
+      articles:
         - file: ../content/faqs/qr-code-recommend/index.md
-        - file: ../content/faqs/qr-code-recommend/index.md
-        - file: ../content/faqs/qr-code-recommend/index.md
-        - file: ../content/faqs/qr-code-recommend/index.md
+        - file: ../content/faqs/what-reporting-do-i-get/index.md
+        - file: ../content/faqs/where-is-my-data-kept/index.md
+        - file: ../content/faqs/whats-the-difference-between-a-site-and-a-zone/index.md
 
 - id: features-and-nonfeatures
   title: Help

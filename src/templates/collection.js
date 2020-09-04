@@ -182,7 +182,7 @@ class CollectionTemplate extends React.Component {
           {
             this.props.data.collection.id == "faqs" && (
               <div>
-                <iframe width="100%" height="400px" sx={{ marginTop: '30px', marginBottom: '0'}} src="https://www.youtube.com/embed/TTKMq0DJNNc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="100%" height="400px" sx={{ marginTop: '30px', marginBottom: '0'}} src="https://www.youtube.com/embed/TTKMq0DJNNc" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
               </div>
             )
           }
@@ -237,7 +237,7 @@ class CollectionTemplate extends React.Component {
                       ":hover": { textDecoration: "none" },
                     }}
                   >
-                    <h3 sx={{ fontSize: 3, mb: 3, color: "initial" }}>
+                    <h3 sx={{ fontSize: 3, fontWeight:400, mb: 3, color: "initial", opacity:"0.7" }}>
                       {section.title}
                     </h3>
                   </a>
