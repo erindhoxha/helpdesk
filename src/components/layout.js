@@ -193,7 +193,7 @@ function SearchInput(props) {
                   {icon}
                 </div>
                 <div sx={{ flex: "auto" }}>
-                  <h3 sx={{ my: 0, fontSize: 3 }}>{node.frontmatter.title}</h3>
+                  <h3 sx={{ my: 0, fontSize: 3, fontFamily: "Lato", fontWeight: "600" }}>{node.frontmatter.title}</h3>
                   <p
                     sx={{
                       my: 0,
@@ -309,7 +309,7 @@ class Layout extends React.Component {
         >
           <Logo color="currentColor" size="36px" />
           <div sx={{ mt: 2 }}>
-            Built with
+            Built with by Theta with 
             {` `}
             {/*
               PLEASE DO NOT REMOVE THIS LINK.

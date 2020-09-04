@@ -71,7 +71,7 @@ class HelpCenterIndex extends React.Component {
                     index === this.props.data.collections.edges.length - 1
                       ? 5
                       : 4,
-                  boxShadow: "0 3px 8px 0 rgba(0,0,0,0.03)",
+                  boxShadow: "13px 13px 26px #d9d9d9, -13px -13px 26px #ffffff",
                   transition:
                     "border .15s linear, transform .15s linear, background-color .15s linear, box-shadow .15s linear, opacity .15s linear, transform .15s linear, box-shadow .15s linear",
                   color: "paperHeadingColor",
@@ -101,6 +101,7 @@ class HelpCenterIndex extends React.Component {
                         mt: 0,
                         mb: 2,
                         color: "inherit",
+                        fontWeight: "500" 
                       }}
                     >
                       {node.title}

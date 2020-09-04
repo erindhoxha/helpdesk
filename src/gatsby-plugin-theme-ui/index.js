@@ -1,12 +1,12 @@
 export default {
   colors: {
     text: "#333",
-    headerBackground: "#607d8b",
+    headerBackground: "#13237c",
     headerText: "white",
     paperBackgroundColor: "white",
     paperHoverBackgroundColor: "#fcfcfc",
-    paperHeadingColor: "#1CAEE0",
-    paperHoverHeadingColor: "#1f8ded",
+    paperHeadingColor: "#0c44a5",
+    paperHoverHeadingColor: "#13237c",
     paperBorderColor: "transparent",
     paperDescriptionColor: "rgb(86, 88, 103)",
     collectionBackgroundColor: "#EBEEF1",
@@ -33,8 +33,8 @@ export default {
   },
   radii: [0, 2, 4, 8],
   fonts: {
-    body: "system-ui, sans-serif",
-    heading: "system-ui, sans-serif",
+    body: "Lato",
+    heading: "Lato",
     monospace: "Menlo, monospace",
   },
   fontWeights: {

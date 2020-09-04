@@ -61,7 +61,7 @@ function Card(props) {
           },
         }}
       >
-        <h3 sx={{ my: 0, py: 0, color: "inherit", fontSize: [3, 4] }}>
+        <h3 sx={{ my: 0, py: 0, color: "inherit", fontSize: [3, 4], fontFamily:"Lato", fontWeight: "600" }}>
           {props.title}
         </h3>
         <div
