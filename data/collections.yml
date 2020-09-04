@@ -30,8 +30,11 @@
     - id: features
       title: Frequently asked questions
       articles:
-        - file: ../content/welcome/index.md
-        - file: ../content/qr-code-recommend/index.md
+        - file: ../content/faqs/qr-code-recommend/index.md
+        - file: ../content/faqs/qr-code-recommend/index.md
+        - file: ../content/faqs/qr-code-recommend/index.md
+        - file: ../content/faqs/qr-code-recommend/index.md
+        - file: ../content/faqs/qr-code-recommend/index.md
 
 - id: features-and-nonfeatures
   title: Features and Non-Features

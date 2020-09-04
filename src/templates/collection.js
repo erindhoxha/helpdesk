@@ -120,7 +120,6 @@ class CollectionTemplate extends React.Component {
         </p>
         <article
           sx={{
-            backgroundColor: "collectionBackgroundColor",
             borderColor: "transparent",
             borderStyle: "solid",
             borderTop: "5px solid #13237c",
