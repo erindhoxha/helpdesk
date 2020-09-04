@@ -4,8 +4,8 @@ module.exports = {
     author: `Dominik Ferber`,
     // You'd normally use a description like
     // "Advice and answers by the MyCompany-Team"
-    description: `Get a free self-hosted Help Center like this one`,
-    siteUrl: `https://help.dferber.de/`,
+    description: `Eva Check-in knowledge base. Please search below.`,
+    siteUrl: `https://evacheckin.com`,
     language: "en",
     texts: {
       allCollectionsText: "All Collections",

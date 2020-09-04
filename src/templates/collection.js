@@ -61,7 +61,7 @@ function Card(props) {
           },
         }}
       >
-        <h3 sx={{ my: 0, py: 0, color: "inherit", fontSize: [3, 4], fontFamily:"Lato", fontWeight: "600" }}>
+        <h3 sx={{ my: 0, py: 0, color: "inherit", fontSize: [3, 4], fontWeight: "600" }}>
           {props.title}
         </h3>
         <div
@@ -113,6 +113,7 @@ class CollectionTemplate extends React.Component {
           <span sx={{ color: "breadcrumbTextColor", fontSize: 1 }}>
             &rsaquo;
           </span>{" "}
+
           <span sx={{ color: "breadcrumbTextColor", fontSize: 1 }}>
             {collection.title}
           </span>
@@ -122,6 +123,7 @@ class CollectionTemplate extends React.Component {
             backgroundColor: "collectionBackgroundColor",
             borderColor: "transparent",
             borderStyle: "solid",
+            borderTop: "5px solid #13237c",
             borderRadius: 2,
             px: [2, 4],
             py: 2,
@@ -152,7 +154,8 @@ class CollectionTemplate extends React.Component {
                   sx={{
                     my: 0,
                     py: 0,
-                    color: "collectionHeading",
+                    color: "paperHeadingColor",
+                    fontWeight:"500",
                   }}
                 >
                   {collection.title}
@@ -189,7 +192,14 @@ class CollectionTemplate extends React.Component {
               </small>
             </div>
           </div>
-          <ul sx={{ ml: 0, mt: 5, listStyleType: "none" }}>
+          {
+            this.props.data.collection.id == "faqs" && (
+              <div>
+                <iframe width="100%" height="400px" sx={{ marginTop: '30px', marginBottom: '0'}} src="https://www.youtube.com/embed/TTKMq0DJNNc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+            )
+          }
+          <ul sx={{ ml: 0, mt: 0, listStyleType: "none" }}>
             {(Array.isArray(collection.articles)
               ? collection.articles
               : []
@@ -203,7 +213,6 @@ class CollectionTemplate extends React.Component {
               ) {
                 return null
               }
-
               const article = articleNode.file.childMarkdownRemark
               if (!article) return null
               return (

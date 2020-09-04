@@ -193,7 +193,7 @@ function SearchInput(props) {
                   {icon}
                 </div>
                 <div sx={{ flex: "auto" }}>
-                  <h3 sx={{ my: 0, fontSize: 3, fontFamily: "Lato", fontWeight: "600" }}>{node.frontmatter.title}</h3>
+                  <h3 sx={{ my: 0, fontSize: 3, fontWeight: "600" }}>{node.frontmatter.title}</h3>
                   <p
                     sx={{
                       my: 0,
@@ -219,6 +219,7 @@ class Layout extends React.Component {
 
     return (
       <div>
+
         <div
           sx={{
             py: 3,
@@ -238,7 +239,8 @@ class Layout extends React.Component {
               }}
             >
               <Logo color="white" size={["36px", "48px"]} />
-              <p sx={{ pt: 2, pb: 2, mb: 2, mt: 2, fontSize: [2, 3] }}>
+              <h1 sx={{ pb: 0, fontSize: [4, 5], color: "white", fontWeight:"500"}}>How can we be helpful?</h1>
+              <p sx={{ pt: 0, pb: 2, mb: 2, mt: 1, fontSize: [1, 2] }}>
                 {description}
               </p>
               <SearchInput />
@@ -254,6 +256,7 @@ class Layout extends React.Component {
                 pb: 2,
               }}
             >
+
               <h3
                 sx={{
                   mt: 0,
@@ -279,6 +282,7 @@ class Layout extends React.Component {
               <SearchInput />
             </header>
           )}
+
         </div>
         <div
           style={{

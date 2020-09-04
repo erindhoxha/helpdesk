@@ -4,7 +4,7 @@ import LogoImage from "../../public/evacheckinlogo.png"
 
 const Logo = (props) => (
   <div>
-    <img width="100" height="100" alt="Eva check-in logo" src={LogoImage}></img>
+    <img width="70" height="70" alt="Eva check-in logo" src={LogoImage}></img>
   </div>
 )
 

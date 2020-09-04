@@ -16,6 +16,12 @@ class ArticleTemplate extends React.Component {
     const collection = article.fields.collection
     const section = article.fields.section
 
+    console.log(collection);
+    console.log(article);
+    console.log(section);
+    console.log(siteTitle);
+    console.log(this.props);
+
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO

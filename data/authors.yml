@@ -1,9 +1,15 @@
 - id: dferber
   name: Dominik
   avatar: ./avatars/dferber.png
+- id: erind
+  name: Erind
+  avatar: ./avatars/dferber.png
 - id: amanda
   name: Amanda
   avatar: ./avatars/amanda.jpg
 - id: bert
   name: Bert
+  avatar: ./avatars/bert.jpg
+- id: hayden
+  name: Hayden
   avatar: ./avatars/bert.jpg
