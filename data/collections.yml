@@ -37,7 +37,7 @@
         - file: ../content/faqs/qr-code-recommend/index.md
 
 - id: features-and-nonfeatures
-  title: Features and Non-Features
+  title: Help
   description: Everything the Free Help Center offers out of the box
   icon: "FaBox"
   sections:
@@ -51,8 +51,8 @@
         - file: ../content/comparison-to-saas/index.md
 
 - id: usage
-  title: Usage
-  description: Setup and usage guides for the free help center
+  title: Contact us
+  description: Find information about Eva Check-in and how to contact us.
   icon: "FaRegListAlt"
   sections:
     - id: setup
