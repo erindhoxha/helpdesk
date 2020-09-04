@@ -124,7 +124,6 @@ class CollectionTemplate extends React.Component {
             borderStyle: "solid",
             borderTop: "5px solid #13237c",
             borderRadius: 2,
-            px: [2, 4],
             py: 2,
             mb: 6,
           }}
@@ -136,18 +135,7 @@ class CollectionTemplate extends React.Component {
               pt: [0, 3],
             }}
           >
-            <div
-              sx={{
-                flex: 1,
-                display: "flex",
-                alignItems: "center",
-                justifyContent: ["flex-start", "center"],
-                py: [3, 0],
-              }}
-            >
-              {icon}
-            </div>
-            <div sx={{ flex: 4 }}>
+            <div>
               <header>
                 <h2
                   sx={{

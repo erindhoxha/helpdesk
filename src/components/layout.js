@@ -231,7 +231,7 @@ class Layout extends React.Component {
             <header
               sx={{
                 mx: `auto`,
-                maxWidth: rhythm(40),
+                maxWidth: rhythm(37),
                 fontSize: 3,
                 px: [2, 4],
                 pt: 4,
@@ -250,7 +250,7 @@ class Layout extends React.Component {
               sx={{
                 marginLeft: `auto`,
                 marginRight: `auto`,
-                maxWidth: rhythm(40),
+                maxWidth: rhythm(37),
                 px: [2, 4],
                 pt: 4,
                 pb: 2,
@@ -292,7 +292,7 @@ class Layout extends React.Component {
           <main
             sx={{
               mx: `auto`,
-              maxWidth: rhythm(40),
+              maxWidth: rhythm(37),
               px: [2, 4],
               py: [3],
             }}
