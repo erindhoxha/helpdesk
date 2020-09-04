@@ -302,6 +302,7 @@ class Layout extends React.Component {
         </div>
         <footer
           sx={{
+            backgroundColor:"paperHoverHeadingColor",
             marginLeft: `auto`,
             marginRight: `auto`,
             maxWidth: rhythm(30),
